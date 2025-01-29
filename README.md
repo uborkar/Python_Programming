@@ -2,9 +2,9 @@
 Introducing my new repo named python - programmming.
 - Python is a high-level programming language that has become increasingly popular due to its simplicity, versatility, and extensive range of applications. The process of How to install Python in Windows, operating system is 
   relatively easy and involves a few uncomplicated steps.
-
-## List Data-Structure in Python
 ---
+## List Data-Structure in Python
+
 More on Lists
 The list data type has some more methods. Here are all of the methods of list objects:
 

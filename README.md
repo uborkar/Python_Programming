@@ -44,7 +44,7 @@ Reverse the elements of the list in place.
 Return a shallow copy of the list. Similar to a[:].
 
 An example that uses most of the list methods:
-
+```
 >>>
 fruits = ['orange', 'apple', 'pear', 'banana', 'kiwi', 'apple', 'banana']
 fruits.count('apple')
@@ -67,4 +67,5 @@ fruits
 fruits.pop()
 'pear'
 >>>
+```
 ---

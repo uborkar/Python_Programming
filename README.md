@@ -45,27 +45,22 @@ Return a shallow copy of the list. Similar to a[:].
 
 An example that uses most of the list methods:
 ```
->>>
-fruits = ['orange', 'apple', 'pear', 'banana', 'kiwi', 'apple', 'banana']
+>>>fruits = ['orange', 'apple', 'pear', 'banana', 'kiwi', 'apple', 'banana']
 fruits.count('apple')
 2
-fruits.count('tangerine')
+>>>fruits.count('tangerine')
 0
-fruits.index('banana')
+>>>fruits.index('banana')
 3
-fruits.index('banana', 4)  # Find next banana starting at position 4
+>>>fruits.index('banana', 4)  # Find next banana starting at position 4
 6
-fruits.reverse()
-fruits
+>>>fruits.reverse()
 ['banana', 'apple', 'kiwi', 'banana', 'pear', 'apple', 'orange']
-fruits.append('grape')
-fruits
+>>>fruits.append('grape')
 ['banana', 'apple', 'kiwi', 'banana', 'pear', 'apple', 'orange', 'grape']
-fruits.sort()
-fruits
+>>>fruits.sort()
 ['apple', 'apple', 'banana', 'banana', 'grape', 'kiwi', 'orange', 'pear']
-fruits.pop()
+>>>fruits.pop()
 'pear'
->>>
 ```
 ---
